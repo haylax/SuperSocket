@@ -98,7 +98,7 @@ namespace SuperSocket.SocketBase
         /// Initializes a new instance of the <see cref="AppServer&lt;TAppSession, TRequestInfo&gt;"/> class.
         /// </summary>
         /// <param name="protocol">The protocol.</param>
-        protected AppServer(IReceiveFilterFactory<TRequestInfo> protocol)
+        public AppServer(IReceiveFilterFactory<TRequestInfo> protocol)
             : base(protocol)
         {
    
